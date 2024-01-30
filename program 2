@@ -1,0 +1,29 @@
+2. Create a table EMPLOYEE with following schema: (Emp_no, E_name, E_address, E_ph_no, Dept_no, Dept_name, Job_id, Salary)
+
+Write SQL queries for following question:
+
+a. Insert a least 5 rows in the table.
+
+b. Display all the information of EMP table.
+
+c. Update the city of Emp_no-12 with current city as Nagpur.
+
+2)
+
+Create lable employee (Emp-no number, E-name varchar2(50), E-addres varchar 2 (100), E-ph-no varchar2(18), Dept-no number, Dept_name varchar2(30), job-id varchar2(10), Salary number);
+
+a) Insert at least 5 rows:
+
+Insert Info employee (empno, E-name, E-addren, E-ph-no, Dept.no, Dept-name, job-id, salary)
+
+Valves
+
+6) Display all information in the Emp table:
+
+Select from employee;
+
+c) update the city of Emp_no-12 to nagpur:
+
+update employee set E-address = 'Nagpur' where
+
+Emp-no=12;
