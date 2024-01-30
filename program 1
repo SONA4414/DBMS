@@ -1,0 +1,28 @@
+1. Create a table EMPLOYEE with following schema: (Emp_no, E_name, E_address, E_ph_no, Dept_no, Dept_name, Job_id, Salary)
+
+a. Add a new column; HIREDATE to the existing relation.
+
+b. Change the datatype of JOB_ID from char to varchar2.
+
+c. Change the name of column/field Emp_no to E_no.
+
+d. Modify the column width of the job field of emp table.
+
+)
+
+Create table Employee (Emp-no Int primary Key, E-name varchar2(50) not null, E-addreu varchar2 (225), E-ph-no varchar2(15),
+Dept-no Int, Dept-name varchar(50), Job-id varchar (4), Salary decimal (10,2));
+
+a) Add a new Column Hiredate:
+alter table employee add hiredate date;
+
+b) Change the datatype of job-id to varchar2: 
+alter table employee modify job-id varchar2(10);
+
+c) change the name of the Emp-no Column to E-no:
+to alter table employee rename Column Emp-no-no;
+
+d) Modify the Column width of the Job_id field:
+alter table employee modify job-id varchar2(15);
+
+2. Create a table EMPLOYEE with following schema: (Emp_no, E_name, E_address, E_ph_no. Dept_no, Dept_name, Job_id, Salary)
