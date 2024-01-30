@@ -1,0 +1,35 @@
+12. Write a PL/SQL code for creation of Trigger to insert and to update data into a table
+
+12) to insert
+
+Create Cor) replace trigger ti before insert on sailors for each row
+begin
+New. Sname: Upper (:new. sname)t end;
+/
+to update
+Create (or) replace trigger +23 after update of id on sailors
+for each row
+begin
+if (i new. sid<80) then
+
+Vaise-application-erior (-20017. "Can't update'); end if;
+
+end;
+
+/
+
+13. Write a PL/SQL code for creation of Trigger to insert and to delete data into a table
+
+13)
+to insert Some 12
+to delete
+Create (or) replace trigger +16
+after
+delete on sailon
+for each now
+begin
+if (old.sad-22) then
+raise application enor (-20017, you Cannot delet this row');
+end it;
+end;
+/
