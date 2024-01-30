@@ -1,0 +1,58 @@
+6. Create a table EMPLOYEE with following schema:
+
+EMPNO ENAME JKOB
+
+MANAGER NO SAL
+
+1234
+
+2345
+
+3456
+
+4567
+
+1100
+
+9000
+
+9000
+
+7000
+
+COMMISSION
+
+6/17
+
+101 abhi manager
+
+1112 rohith analyst
+
+110
+
+104
+
+david trainer rahul elerk
+
+a. Insert the any three records in the employee table and use rollback. Check the result.
+
+b. Add primary key constraint and not null constraint to the employee table.
+
+c. Insert null values to the employee table and verify the result.
+
+b)
+
+Create table employee (Empro number,Ename varchar2(20), Job varchara (20), manager no nomber,
+Sal number, Commission number);
+
+a)Insert three records and roll back:
+Insert the given values in the given table rollback;
+
+b) Add Constraints:
+Alter table employee add constraint Pk_empro
+Primary Key (empro), modity ename varcharz (20) not null;
+
+c) insert null valves:
+insert info employee valves (104, NULL, "Clerk, 4567, 7000, 55);
+
+
