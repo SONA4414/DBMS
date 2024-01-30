@@ -1,0 +1,87 @@
+10. Create a table sailor, reserves, boats:
+
+sid name
+
+rating age
+
+22 Dustin 7 45.0
+
+29 Brutus
+
+31 Lubber 8
+
+32 Andy
+
+nid bed day
+
+22 101 10/10/98
+
+bid bname
+
+color
+
+22 102 10/10/98 22 103 10/8/98
+
+22 104 10/7/98
+
+31 102 11/10/95
+
+31 103 11/6/98
+
+64 101 9/5/
+
+101 Interlake blue
+
+58 Rusty 10
+
+64 Horatio 7
+
+71 Zorka 10
+
+96/21/11 101 12
+
+102 Interlake red
+
+74 Horatio 9
+
+85 Art
+
+95 Bob
+
+33.0
+
+555
+
+25.5
+
+35.0
+
+35.0
+
+16.0
+
+35.0
+
+25.5
+
+635
+
+96/8/6 2011
+
+103 Clipper
+
+green
+
+red
+
+a. Find the names of sailors who have reserved red boat. (Nested Query)
+104 Marine
+
+b. Find the names of sailors who have reserved boat number 103. (correlated Nested Query)
+10)
+
+a) find the names of Sailon who have reserved red boat (Nested query)
+Select ssname from sailon IN (Select 8(select r. råd from reserves s where & sid r where v.rbid b.bid hom boats b where b. Clor='red'));
+
+b) find the names of sailon who have resenied boat number 103(Correlated Nested query)
+Select S.sname fom sailors S (select Rom reserves & where = S.Sid); where existe r. rbid=103 and
