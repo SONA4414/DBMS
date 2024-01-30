@@ -1,0 +1,123 @@
+8. Create a table sailor, reserves, boats:
+
+sid aname 22 Dustin 7 45.0
+
+ruting age
+
+wil bid day
+
+22 101 10/10/98
+
+22 102 10/10/08 22 103 10/8/08
+
+22 104 10/7/98
+
+31 102 11/10/98
+
+29 Beutus 1 31 Lubber
+
+33.0
+
+55.5
+
+32 Andy
+
+58 Rusty 10 64 Horatio 7
+
+35.0
+
+35.0
+
+31 103 11/6/98
+
+71 Zorha 10
+
+16.0
+
+74 Haratio
+
+85 Art
+
+35.0
+
+25.5
+
+96 Bob
+
+85/21/IT FOT TE
+
+64 101 9/5/9
+
+64 102 9/8/98 74 103 9/6/96
+
+a. Find the average age of sailors with a rating of 10?
+
+b. Find the name and age of the oldest sailor?
+
+c. Find the age of the youngest sailor for each rating level?
+
+bid bname
+
+color
+
+101 Interlake blue.
+
+102 Interlake red
+
+103 Clipper green
+
+104 Marine red
+
+d. Find the average age of sailors for each rating level that has at least two sailors? (group by and Having)
+
+a) Find the overige age of sailen with a rating of 10 
+Select ang (s.age) from sailors where s.rating=10; 
+AVG(SAGE) 36.6
+
+find the rame and age & the oldest sailor?
+select name, Sage hem sailon where sage (select massage) trom sailor)s
+
+SNAME
+find the age of the yout youngert sailer for Rach wling leveli
+AGE 63.5
+
+d) find the average age of sailem for soch nating level that has at least two sailen? (group by and having).
+Select s.rating avg (S.age) as avarage from salior 5 group by S.rating having count(*)>1;
+
+RATING
+
+MIN (SAGE)
+
+
+RATING
+
+8
+7
+3
+10
+
+AVERAGE
+
+40.5
+
+40
+
+33
+
+26
+
+35
+
+250
+
+3
+
+10
+
+16
+
+36
+
+10
+
+96.6
