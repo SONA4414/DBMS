@@ -1,0 +1,65 @@
+5. Create a table EMPLOYEE with following schema:
+
+Eid
+
+101
+102
+103
+104
+105
+106
+107
+
+Ename
+
+Am
+Shane
+Rohan
+Scott
+Tiger
+Ales
+Abhi
+Age
+
+
+
+Salary
+
+9000
+
+8000
+
+6000
+
+10000
+
+5000
+
+7000
+
+5000
+
+44
+
+35
+
+27
+
+19
+
+a. Find grouped salaries of employees. (group by clause)
+
+b. Find salaries of employee in Ascending Order. (order by clause)
+
+5)
+
+c. Find salaries of employee in Descending Order.
+
+a) find grouped salaries of employees:..
+Select Salary, Count(*) group by salary, as Count hom employee 16
+
+b) find salaries of employee in ascending order:
+select salary from employee ordor by salary ASC;
+
+find salaries of employee in decending order:
+select salary from employee order by salary DESC;
