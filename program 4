@@ -1,0 +1,57 @@
+4. Create a table EMPLOYEE with following schema:
+
+Eid
+101
+102
+103
+104
+105
+106
+107
+
+Ename
+Amu
+Shane
+Rohan
+Scutt
+Taper
+Alex
+Abhi
+Age
+Salary
+
+9000
+8000
+6000
+10000
+5000
+7000
+1000
+
+Write SQL queries for following question:
+
+a. Count number of employee names from employee table.
+b. Find the Maximum age from employee table.
+c. Find the Minimum age from employee table.
+
+4)
+
+Create table employee (E-id int primary key, E-name varchar(255), Age Int, salary int);
+Insert into employee (20, E-name, age, salary) valves.
+
+(101, Anu', 22, 9000),
+(102, shane, 29, 8000),
+(103, Rohan', 34, 6000),
+(104,"Scott, 35, 10000),
+(106, Tiger', 21, 8000),
+(106, Alex, 29, 1000),
+(107, Abhi, 28, 8000);
+
+a) Court the number of employee names:
+Select Count (E-name) as number-of-Employee from Employee;
+
+b) find the maximum age:
+Select max(age) as maximum age from employee;
+
+c) find the menimum age:
+Select min(age) as minimum-age hom employee;
