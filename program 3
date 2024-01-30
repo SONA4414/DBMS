@@ -1,0 +1,20 @@
+3. Create a table EMPLOYEE with following schema: (Emp_no, E_name, E_address, E_ph_no, Dept_no, Dept_name, Job_id, Salary)
+
+Write SQL queries for following question:
+
+a. Display the details of Employee who works in department MECH.
+b. Delete the email_id of employee James.
+c. Display the complete record of employees working in SALES Department.
+
+3)
+Create table employee (emp-no înt primary key, E-name varchar2(50), E-addreu varchara (255), E-ph-no varchar2 (15), 
+Dept no Int, Dept-name varchar2(50), Job-id varchar2 (10), Salary decimal (10,2));
+
+a) Display the details of employee in the MECH department:
+Select from employee where Dept-name="MECH';
+
+b) Delete the email-id of employee james (assuming email id is stored in a Column named "E-email"): 
+update employee set E_email = null where E-name =' James';
+
+c) Display the Complete record of employees working in the SALES department:
+select * from employee where Dept_name = 'Sales";
