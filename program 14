@@ -1,0 +1,32 @@
+14. a) Write a PL/SQL program that uses cursor operation on any data base.
+
+14)
+
+declave
+
+V-Sname varchar 2 (10);
+
+V-age varchav 2 (10);
+V-dating number (u);
+Cursor C1 is
+Select sname, age, rating from sailon;
+BEGIN
+Open (1;
+loop
+fectch C1 into V-sname, Vage, V-rating;
+exit when 1% not found;
+dbms_output.put_line (vsnamell' 'llagell' 'll V-rating);
+end loop;
+close C1;
+end;
+/
+
+b) Write a PL/SQL program for displaying multiplication of any number
+
+DECLARE
+num NUMBER:= 7; - Replace with the desired number range NUMBER := 12; Replace with the desired range
+BEGIN
+FOR i IN 1..range LOOP
+dbms_output.put_line(num || 'x' || i || ' = ' || num * i);
+END LOOP:
+END:
