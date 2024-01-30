@@ -1,0 +1,26 @@
+a) write a query to perform INNER JOIN for the above tables.
+Select id, name, amount, day from Customer inner Join order 1 on Customer.id = order 1. Customerid;
+
+ID
+3
+3
+NAME
+AMOUNT
+DAY
+Kaushik
+3000
+08-OCT-09
+Kaushik
+1500
+08-OCT-A
+2 Khilaan
+1560
+20-Nov-09
+4 chaitali
+2060
+20-May-08
+
+b) LEFT OUTER JOIN
+Select id, name, amount, day from customer left join order 1 on Customer. id = order 1 Customer id;
+CRIGHT
+Select id, name, amount, day from customer right join order 1 Customer id; on customer.id = order1.
