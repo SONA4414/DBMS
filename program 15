@@ -1,0 +1,36 @@
+15. a) Write a PL/SQL code for modification of procedure to view some specified columns from a table.
+
+Lab Record
+
+Write a PL/SQL code for modification of procedure to view some specified columns from a table
+Create or replace procedure psailors 2 (
+N-Sidl in sailor. sailon. sind type,
+sname in pailon. sname-type. Wage in sailon. age. type) is
+begin
+Update sailors sot sname V-Shome, age Vage
+Commit;
+end;
+/
+Procedure created.
+where sid=v-sid
+
+
+b) Write a PL/SQL program for displaying multiplication of any number
+
+DECLARE
+
+num NUMBER := 7; -- Replace with the desired number
+
+range NUMBER := 12; -- Replace with the desired range
+
+BEGIN
+
+FOR i IN 1..range LOOP
+
+dbms_output.put_line(num || 'x' || i || ' = ' || num * i);
+
+END LOOP;
+
+END;
+
+/
