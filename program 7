@@ -1,0 +1,90 @@
+7. Create a table sailor, reserves, boats:
+
+and sname
+
+rating age
+
+22 Dustin 7 45.0
+
+22 101 10/10/98
+
+29 Brutus 1 33.0
+
+31 Laubber B 55.5
+
+32 Andy 25.5 58
+
+Rusty 10 35.0
+
+22 101 10/8/
+
+22 104 10/7/98
+
+31 102 11/10/08 31 103 11/6/08
+
+64 Horatio 7
+
+35.0
+
+71 Zorka 10
+
+16.0
+
+74 Horatio 9
+
+35.0
+
+64 101 9/5/98
+
+85 Art
+
+25.5
+
+95 Bob
+
+74 103 9/8/08
+
+bid bname
+
+color
+
+101 Interlake blue
+
+102 Interlake red
+
+103 Clipper green
+
+104 Marine red
+
+a. Find the names of sailors who have reserved both a red and a green boat. (Intersect)
+b. Find the names of sailors who have reserved both a red and a green boat. (union all)
+c. Find the names of sailors who have reserved boat 103. (Exists)
+
+
+
+a) find the names of sailox who have reserved both a red and a green boat. (Intersect).
+Select ssname from sailon syreserves r, boats b where! s.sid raid and verkid babid
+and b. celerred intersect select $2. name reservers Ys, boite ba hom sailon $1, where S. sid Ya.rsid and v²rbid ba.bid and bz.color="green";
+
+SNAME
+Dustin
+hovatio
+Lubber
+
+b) find the names of sailon who have reserved both a red and a green boot (Union all)
+Select s.sname from sailon sareserver r, booth b where S. side 1. Ysid and r.rbid=bibid and b.color
+red union all select s2.name from Sailon 52, vererwen 12, boas by where ba. Color "green"; and raorbid = b.bid and
+
+SNAME
+Dustin
+Dustin lubber
+lubber
+Dustin
+
+
+c) find the names of sailon who have reserved
+boat 103. (Existh). Select s.sname dom sailons where exists (Select + hom reserves where r.bid=103 and rinsed-sisid);
+SNAME:
+Dustin
+lubber
+horatio
