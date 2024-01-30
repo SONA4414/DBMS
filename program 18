@@ -1,0 +1,21 @@
+18. Create tables for following schemas
+
+Students (sid: string, name: string, login: string, age: integer, gpa: real)
+Faculty (fid: string, fname: string, sal: real)
+Courses (cid: string, cname: string, credits: integer)
+
+a. write a sql query to drop a column in students table.
+b. Write a query to rename table students to STUDENT
+C. Write a query to insert three rows in each table
+
+Create table students (sid varchar(255), name varchar(255), login varchar(255), age integer, gpa real);
+Create table faculty (fid varchar (255), fname varchar(255), Salreal);
+Create table Courses (cid varchar(255), Cname varchar(256), Credits integer);
+
+a) Drop a Column in the students table:
+alter table students Drop Column age;
+
+b) Rename the students table to student: 
+Rename table students to student;
+
+c) Insert three rows into each table:
