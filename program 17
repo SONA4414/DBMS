@@ -1,0 +1,29 @@
+17. Converting ER Model to Relational Model (Represent entities and relationships in Tabular form, represent attributes as columns, identifying keys)
+Diagram
+Source
+
+BusNo
+
+Destination
+
+Departure time
+
+1.)
+
+Create table bus (bus-no varchara (10) Primary Key,
+Source char(10), destination char (10),
+departure time varchar a (10));
+insert inte bus values(
+
+2.
+Create table ticket (ticket, no number (6), journey-dute date
+age red, gender char(), p
+dept-timme varchar2 (1o), Source char(15), destination charlis) bus-no varchar(10), foreign Key (bus-no)
+reference bus (bus-no));
+reorderPoint
+
+
+3.
+
+CREATE TABLE Item ( itemno INT PRIMARY KEY, itemname VARCHAR(255) NOT NULL, unitprice DECIMAL(10,2)
+NOT NULL, reorderpoint INT, qtyonhand INT );
